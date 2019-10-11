@@ -1,0 +1,3 @@
+[submodule "BaggageAndGarbage"]
+	path = BaggageAndGarbage
+	url = https://github.com/FresisuisHunters/BaggageAndGarbage.git
