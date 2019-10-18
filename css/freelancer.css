@@ -6077,6 +6077,7 @@ a.close.disabled {
   margin-right: 15%;
   margin-left: 15%;
   list-style: none;
+  border-radius: 50%;
 }
 
 .carousel-indicators li {
@@ -9376,6 +9377,10 @@ a.text-primary:hover, a.text-primary:focus {
 
 .text-secondary {
   color: #00A0A0!important;
+}
+
+.text-secondary-type2 {
+  color: #ffffff!important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
