@@ -54,7 +54,7 @@ html {
   -webkit-tap-highlight-color: rgba(46, 46, 46, 0);
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
@@ -504,13 +504,27 @@ mark,
   display: inline-block;
 }
 
+#nombreTeam{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 160%;
+}
+
+#rolesTeam{
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 120%;
+}
+
+
+
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
 }
 
 .figure-caption {
-  font-size: 90%;
+  font-size: medium;
   color: #6c757d;
 }
 
@@ -2261,6 +2275,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #00DB93;
   border-color: #00DB93;
+  size: 50%;
 }
 
 .btn-primary:hover {
