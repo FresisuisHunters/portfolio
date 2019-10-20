@@ -186,6 +186,13 @@ a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
 
+#correo{
+  font-size: 200%;
+  text-align: center;
+  color: #fff;
+ 
+}
+
 pre,
 code,
 kbd,
