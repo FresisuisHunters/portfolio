@@ -47,6 +47,14 @@
   box-sizing: border-box;
 }
 
+.main-text
+{
+  position: absolute;
+  top:50px;
+  width:97%;
+  color:#00D4FF;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
