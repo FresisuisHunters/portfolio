@@ -211,7 +211,13 @@ a:not([href]):not([tabindex]):focus {
   font-size: 200%;
   text-align: center;
   color: #fff;
+  align-self: center;
  
+}
+
+#contacto
+{
+  justify-content: center !important;
 }
 
 pre,
