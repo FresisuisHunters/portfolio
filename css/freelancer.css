@@ -50,9 +50,9 @@
 .main-text
 {
   position: absolute;
-  top:50px;
-  width:97%;
-  color:#00D4FF;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
 }
 
 html {
@@ -590,8 +590,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -622,10 +622,10 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .row {
@@ -9743,8 +9743,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .masthead .masthead-heading {
@@ -9762,8 +9762,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
